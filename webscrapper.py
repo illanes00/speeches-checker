@@ -81,7 +81,7 @@ if __name__ == "__main__":
     speeches = []
     threads = []
     
-    for id in range(const.LAST_SPEECH_ID + 1):
+    for id in range(71541, const.LAST_SPEECH_ID + 1):
         t = threading.Thread(target=get_speech, args=(id,))
         t.daemon = True
         threads.append(t)
@@ -90,7 +90,7 @@ if __name__ == "__main__":
     n_thread = 0
     for t in threads:
         t.start()
-        time.sleep(0.01)
+        time.sleep(0.5)
         print(f"[INFO]: Starting Thread N°{n_thread}")
         n_thread += 1
 
