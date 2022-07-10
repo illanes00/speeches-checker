@@ -1,2 +1,2 @@
 # speeches-checker
-Proyecto que busca analizar la frecuencia de palabras de diferentes presidentes de la república.
+Proyecto que busca analizar la frecuencia de palabras en discursos de los presidentes Sebastián Piñera y Gabriel Boric.
