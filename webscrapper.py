@@ -1,6 +1,6 @@
 from tabnanny import verbose
 import requests
-import const
+import constants as const
 from requests.exceptions import HTTPError
 from classes import Speech
 from bs4 import BeautifulSoup
